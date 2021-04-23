@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="0dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="32dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LayoutSpace.sender"
+            android:background="@drawable/blue_chat_bar"
+            >
+            <TextView
+                style="@style/ChatBar.BlueChat"
+                android:background="@drawable/blue_chat_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hi_leo_what_s_up_ni_need_new_logo_for_group"
+                />
+            <ImageView
+               style="@style/check_state"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SendTime.Me"
+            android:text="@string/_22_31"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LayoutSpace.sender"
+            android:background="@drawable/blue_chat_bar"
+            >
+            <TextView
+                style="@style/ChatBar.BlueChat"
+                android:background="@drawable/blue_chat_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        android:text="@string/simple_minimum_and_beauti"
+        />
+            <ImageView
+                style="@style/check_state"
+                />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SendTime.Me"
+            android:text="@string/_22_31"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok_i_ll_start_next_week_nsend_me_documents_today"
+        android:background="@drawable/white_chat_bar"
+        style="@style/ChatBar.WhiteChat"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_22_31"
+        style="@style/SendTime.Sender"
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LayoutSpace.sender"
+            android:background="@drawable/blue_chat_bar"
+            >
+    <TextView
+        style="@style/ChatBar.BlueChat"
+        android:background="@drawable/blue_chat_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oh_that_s_great"
+
+        />
+            <ImageView
+                style="@style/check_state"
+                />
+        </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/SendTime.Me"
+        android:text="@string/_22_33"
+        />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="18dp"
+    android:padding="18dp"
+    android:background="@drawable/message_space"
+    >
+    <ImageView
+        style="@style/ChatSpaceAttachments"
+        android:layout_gravity="start"
+        android:src="@drawable/a01"
+        android:layout_marginEnd="250dp"
+        />
+
+    <ImageView
+        style="@style/ChatSpaceAttachments"
+        android:layout_gravity="end"
+        android:src="@drawable/a02"
+        android:layout_marginRight="16dp"
+        />
+    <ImageView
+       style="@style/ChatSpaceAttachments"
+        android:layout_gravity="end"
+        android:src="@drawable/a03"
+        />
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

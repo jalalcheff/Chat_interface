@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChatInterface" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/WhiteTextChat</item>
+        <item name="colorPrimaryVariant">@color/WhiteTextChat</item>
+        <item name="colorOnPrimary">@color/WhiteTextChat</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ChatBar">
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="ChatBar.BlueChat">
+        <item name="android:textColor">@color/WhiteTextChat</item>
+        <item name="background">@drawable/blue_chat_bar</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="drawableTint">#fff</item>
+    </style>
+    <style name="ChatBar.WhiteChat">
+        <item name="android:textColor">@color/BlackTextChat</item>
+        <item name="background">@drawable/white_chat_bar</item>
+        <item name="android:layout_gravity">start</item>
+    </style>
+    <style name="SendTime">
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="SendTime.Me">
+        <item name="android:layout_gravity">end</item>
+    </style>
+    <style name="SendTime.Sender">
+        <item name="android:layout_gravity">start</item>
+    </style>
+    <style name="LayoutSpace">
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="LayoutSpace.sender">
+        <item name="android:layout_gravity">end</item>
+    </style>
+    <style name="LayoutSpace.recevier">
+        <item name="android:layout_gravity">start</item>
+    </style>
+    <style name="check_state">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:src">@drawable/ic_baseline_check_24</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:tint">@color/WhiteTextChat</item>
+    </style>
+    <style name="ChatSpaceAttachments">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="WhiteTextChat">#ffff</color>
+    <color name="BlackTextChat">#000</color>
+    <color name="WhiteChatBar">#f7f8fd</color>
+    <color name="BlueChatBar">#567af4</color>
+</resources>
